@@ -38,7 +38,7 @@ public class Main {
                 drawOrNot = sc.next();
                 if (drawOrNot.compareTo("Y") == 0 || drawOrNot.compareTo("y") == 0) {
                     boolean an = singlePlayer.hitACard(pack.getNextCard());
-                    playerDone = !an; // daca scorul este >21 , atunci am iesit
+                    playerDone = !an; // daca scorul este > 21, atunci suntem eliminati
                     if (playerDone) { // daca playerul este eliminat
                         isEliminated = true;
                     }
