@@ -45,7 +45,7 @@ public class Card {
         s.add("K");
         numberOfCard = s.get(cardNumber - 1); // deoarece numerotarea cartilor este de la 1 si nu de la 0;
 
-        return numberOfCard + " " + cardType.toString(); // cardType este integer, dar il putem transforma in String
+        return numberOfCard + " " + cardType.toString();
 
     }
 }
